@@ -16,7 +16,7 @@ We use a state machine to describe how the TradingEnv interact with agent as wel
 
 As shown below, the state machine use three kinds of trading positions and five (action "Hold" does not shown) kinds of trading actions to describe how the transaction goes over time.
 
-![state machine](./statemachine.png)
+![state machine](statemachine.png)
 
 ### Trading Positions
 
@@ -89,11 +89,11 @@ The experimental results show that such a definition is better than the original
     - The y-axis of the position figure is the closing price of each day.
     - Besides, the red inverted triangle, the green positive triangle and the blue circle represent the position of the agent every trading day respectively.
   
-![position](./position.png)
+![position](position.png)
 
   - The profit figure:
     - Similarly, The x-axis of the profit figure is trading days. In this case, it is 252 trading days. (a pair of pictures keep the same time interval)
     - The y-axis of the profit figure is the profit of each day. 1.5 means the rate of return is 150%.
   
-![profit](./profit.png)
+![profit](profit.png)
 

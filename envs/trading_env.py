@@ -96,7 +96,7 @@ class TradingEnv(BaseEnv):
         else:
             self.plot_freq = self._cfg.plot_freq
         if 'save_path' not in self._cfg:
-            self.save_path = './'
+            self.save_path = '/'
         else:
             self.save_path = self._cfg.save_path
         # ================================
