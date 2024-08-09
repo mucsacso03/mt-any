@@ -32,7 +32,7 @@ stocks_muzero_config = dict(
         # associated with the feature length.
         window_size=20,
         # the path to save result image.
-        save_path='/home/david/Project/LightZero/zoo/gym_anytrading/envs/data/pics/',
+        save_path='/kaggle/working/LightZero/zoo/gym_anytrading/envs/data/STOCKS_GOOGL.csv',
         # the raw data file name
         stocks_data_filename='STOCKS_GOOGL',
         # the stocks range percentage used by train/test.
